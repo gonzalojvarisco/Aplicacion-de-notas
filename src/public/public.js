@@ -1,2 +1,0 @@
-//esta carpeta sirve para insertar todos los archivos estaticos. Ej imagenes, fuestes, archivos de CSS,
-// javascript y cualquier archivo que queramos enviar al navegador para que pueda pintar por pantalla
