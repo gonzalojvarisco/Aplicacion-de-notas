@@ -4,6 +4,7 @@ const path= require('path');
 const exphbs= require('express-handlebars');
 const methodOverride= require('method-override');
 const session = require('express-session');
+const flash= require('connect-flash');
 
 //initializations
 const app= express();
@@ -29,6 +30,7 @@ app.use(session({
     resave: true,
     saveUninitialized: true
 })); //config basica que nos permitira luego autenticar y almacenar usuario temporalmente
+app.use(flash());
 
 //global variables
 
